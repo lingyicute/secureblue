@@ -26,3 +26,4 @@ scripts:
   - fixupstreamicdloaderbug.sh
   - enablesecurebluefirstrun.sh
   - enablekeyverification.sh
+  - enablesecuritynotifications.sh

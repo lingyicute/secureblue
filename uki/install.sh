@@ -215,7 +215,7 @@ while :; do
         echo "'${disk_input}' is not a whole disk."
         continue
     fi
-    if [[ $(lsblk -o SIZE -bnd "${disk}") -lt 34359738368 ]]; then
+    if [[ $(lsblk -o SIZE -bnd "${disk}") -lt 30000000000 ]]; then
         echo "Disk must have a size of at least 32 GiB."
         continue
     fi
